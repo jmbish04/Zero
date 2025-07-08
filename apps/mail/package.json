@@ -11,9 +11,22 @@
     "deploy": "pnpm wrangler deploy",
     "lint": "eslint .",
     "machine-translate": "inlang machine translate --project project.inlang"
-  },
-  "dependencies": {},
+},
+  "dependencies": {
+    "@trpc/client": "10.0.0",
+    "@trpc/server": "10.0.0",
+    "@trpc/tanstack-react-query": "10.0.0",
+    "autumn-js": "1.2.3",
+    "better-auth": "2.1.0",
+    "superjson": "1.3.0",
+    "typescript": "5.1.3",
+    "wrangler": "4.24.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+},
   "devDependencies": {
-    "wrangler": "^4.24.0"
+    "drizzle-kit": "0.12.0",
+    "typescript": "5.1.3",
+    "wrangler": "4.24.0"
   }
 }
