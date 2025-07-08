@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "react-router dev",
     "build": "react-router build",
-    "start": "wrangler df
- --port 3000 --show-interactive-dev-session=false",
+    "start": "wrangler df --port 3000 --show-interactive-dev-session=false",
     "types": "wrangler types",
     "deploy": "wrangler deploy --name zero-mail",
     "lint": "eslint .",
